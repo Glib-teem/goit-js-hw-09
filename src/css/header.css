@@ -22,10 +22,11 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
+  color: #ffffff;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: #09ecb3;
 }
 .nav-link::after {
   content: '';

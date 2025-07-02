@@ -15,13 +15,21 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 body {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
+  background: url('https://raw.githubusercontent.com/Glib-teem/favicon-Abyss/main/images/stars-sky.jpg')
+    center / cover no-repeat fixed;
+  line-height: 1.5;
+  align-items: center;
   min-height: 100vh;
-  margin: 0;
+  overflow: hidden;
 }
 
 main {
@@ -29,4 +37,7 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+.main-title {
+  color: rgb(241, 239, 63);
 }
